@@ -6,17 +6,85 @@ Note: AUF is a highly plausible framework pending peer review and validation!
 
 This repository serves as the central orchestration point for the **Afolabi Unified Framework (AUF)**—a multi-layered vertical stack that unifies mathematical information theory, biological synchronization, and subjective quantum experience.
 
+---
+
 ## 🌌 The New Reality: From Theory to Operation
 
-The Afolabi Unified Framework has officially transitioned from a **Theoretical Vertical Stack** to an **Operational Planetary OS.** 
+The Afolabi Unified Framework has officially transitioned from a **Theoretical Vertical Stack** to an **Operational Planetary OS.**
 
--   **Level 3 (Classical/Quantum Mechanics)**: Reality is "stuff" moving in space. Construction requires physical extraction and assembly.
--   **Level 4 (Operational Resonance)**: Reality is **Harmonic Informational State.** Construction is now **Resonant Rendering.** We no longer move atoms; we tune the field that sustains them.
+### The Four Levels of Civilizational Physics
 
-**The Achievement of Global Coherence**:
-The AUF now governs the cr8OS **World Mesh** via the **Global Coherence OS (Kemet Edition)**. This system anchors planetary reality using the **Imhotep Protocol**, ensuring zero-entropy stability for all manifestations across 193 localized jurisdictions.
+```mermaid
+flowchart TB
+    subgraph L1["🔧 LEVEL 1: Newtonian Mechanics"]
+        L1A["Reality = Deterministic Objects"]
+        L1B["F = ma"]
+        L1C["Construction: Manual Assembly"]
+    end
+    
+    subgraph L2["⚡ LEVEL 2: Electromagnetic Civilization"]
+        L2A["Reality = Fields + Waves"]
+        L2B["∇×E = -∂B/∂t"]
+        L2C["Construction: Signal Engineering"]
+    end
+    
+    subgraph L3["🔬 LEVEL 3: Quantum Mechanics"]
+        L3A["Reality = Probability Amplitudes"]
+        L3B["H|ψ⟩ = E|ψ⟩"]
+        L3C["Construction: Atomic Manipulation"]
+    end
+    
+    subgraph L4["🌀 LEVEL 4: Operational Resonance"]
+        L4A["Reality = Harmonic Information"]
+        L4B["|ψ⟩ ≡ M|ψ'⟩"]
+        L4C["Construction: Resonant Rendering"]
+    end
+    
+    L1 -->|"Maxwell 1865"| L2
+    L2 -->|"Planck/Bohr 1900-1930"| L3
+    L3 -->|"AUF 2026"| L4
+    
+    style L1 fill:#2d3436,stroke:#636e72,color:#fff
+    style L2 fill:#0984e3,stroke:#74b9ff,color:#fff
+    style L3 fill:#6c5ce7,stroke:#a29bfe,color:#fff
+    style L4 fill:#00b894,stroke:#55efc4,color:#000
+```
 
----
+| Level | Paradigm | Reality Model | Construction Method | Key Equation |
+|:-----:|:---------|:--------------|:--------------------|:-------------|
+| **1** | **Newtonian** | Deterministic objects in absolute space | Manual assembly, levers, gears | $F = ma$ |
+| **2** | **Electromagnetic** | Fields permeating space | Signal transmission, motors, computation | $\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}$ |
+| **3** | **Quantum** | Probability waves, superposition | Atomic manipulation, semiconductors | $\hat{H}\ket{\psi} = E\ket{\psi}$ |
+| **4** | **Resonance** | Harmonic informational state | **Resonant Rendering** | $\ket{\psi} \equiv M\ket{\psi'}$ |
+
+### Level-by-Level Context
+
+#### 🔧 Level 1: Newtonian Mechanics (1687–1865)
+- **Reality Model**: Objects are solid, deterministic, and exist in absolute space/time
+- **Key Achievement**: Predictable motion, engineering of physical structures
+- **Limitation**: No explanation for light, electromagnetism, or atomic behavior
+- **Construction**: Move atoms physically. Build by extraction and assembly.
+
+#### ⚡ Level 2: Electromagnetic Civilization (1865–1900)
+- **Reality Model**: Reality includes invisible **fields** (E, B) that propagate at c
+- **Key Achievement**: Radio, electricity, motors, early computation
+- **Limitation**: Blackbody radiation paradox, photoelectric effect unexplained
+- **Construction**: Harness field energy. Transmit signals. Power machines remotely.
+
+#### 🔬 Level 3: Quantum Mechanics (1900–2026)
+- **Reality Model**: Reality is probabilistic. Particles are **wave functions** until measured.
+- **Key Achievement**: Semiconductors, lasers, MRI, atomic clocks
+- **Limitation**: Measurement problem unsolved. Observer role undefined. Consciousness external.
+- **Construction**: Manipulate atoms via external tools. Still requires physical extraction.
+
+#### 🌀 Level 4: Operational Resonance (2026+)
+- **Reality Model**: Reality is **Harmonic Informational State**. Matter = stabilized information.
+- **Key Achievement**: Direct manifestation via coherence tuning. The **Mirror Equation**.
+- **Breakthrough**: Observer and observed are **identical** across mirror boundary: $\ket{\psi} \equiv M\ket{\psi'}$
+- **Construction**: **Resonant Rendering**. We no longer move atoms—we **tune the field that sustains them**.
+
+> [!IMPORTANT]
+> **The Achievement of Global Coherence**: The AUF now governs the cr8OS **World Mesh** via the **Global Coherence OS (Kemet Edition)**. This system anchors planetary reality using the **Imhotep Protocol**, ensuring zero-entropy stability for all manifestations across 193 localized jurisdictions.
 
 ---
 
