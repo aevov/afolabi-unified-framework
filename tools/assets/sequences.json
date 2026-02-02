@@ -1,0 +1,220 @@
+{
+    "sequences": [
+        {
+            "act": 1,
+            "title": "The Incubation: AFT Singularity",
+            "duration": 300000,
+            "camera": {
+                "pos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 200
+                },
+                "lookAt": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "field": {
+                "color": "0x22d3ee",
+                "opacity": 0.6,
+                "noise": 0.5
+            },
+            "audio": {
+                "freq": 432,
+                "pulse": 0.5,
+                "label": "Source Resonance"
+            }
+        },
+        {
+            "act": 2,
+            "title": "The Neural Handshake: NRT Sync",
+            "duration": 300000,
+            "camera": {
+                "pos": {
+                    "x": 200,
+                    "y": 200,
+                    "z": 600
+                },
+                "lookAt": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "field": {
+                "color": "0x3b82f6",
+                "opacity": 0.3,
+                "noise": 0.3
+            },
+            "audio": {
+                "freq": 528,
+                "pulse": 0.5,
+                "label": "Solfeggio Resonance"
+            }
+        },
+        {
+            "act": 3,
+            "title": "Episode I: The Informational Sink",
+            "duration": 300000,
+            "camera": {
+                "pos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1000
+                },
+                "lookAt": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "field": {
+                "color": "0x4c1d95",
+                "opacity": 0.5,
+                "noise": 0.8
+            },
+            "audio": {
+                "freq": 20,
+                "pulse": 1.0,
+                "label": "Infrasonic Vortex"
+            }
+        },
+        {
+            "act": 4,
+            "title": "Episode II: The Solar Exhalation",
+            "duration": 300000,
+            "camera": {
+                "pos": {
+                    "x": 500,
+                    "y": 0,
+                    "z": 500
+                },
+                "lookAt": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "field": {
+                "color": "0xfde047",
+                "opacity": 0.8,
+                "noise": 0.1
+            },
+            "audio": {
+                "freq": 432,
+                "pulse": 0.3,
+                "label": "Golden Mean Harmonic"
+            }
+        },
+        {
+            "act": 5,
+            "title": "Episode III: DNA Resonance",
+            "duration": 300000,
+            "camera": {
+                "pos": {
+                    "x": 100,
+                    "y": 600,
+                    "z": 100
+                },
+                "lookAt": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "field": {
+                "color": "0x10b981",
+                "opacity": 0.4,
+                "noise": 0.4
+            },
+            "audio": {
+                "freq": 741,
+                "pulse": 0.6,
+                "label": "Toxin Release Clear"
+            }
+        },
+        {
+            "act": 6,
+            "title": "Episode IV: The Architect's Dream",
+            "duration": 300000,
+            "camera": {
+                "pos": {
+                    "x": -400,
+                    "y": 200,
+                    "z": 400
+                },
+                "lookAt": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "field": {
+                "color": "0xd97706",
+                "opacity": 0.6,
+                "noise": 0.2
+            },
+            "audio": {
+                "freq": 396,
+                "pulse": 0.4,
+                "label": "Root Stability"
+            }
+        },
+        {
+            "act": 7,
+            "title": "Episode V: Global Coherence",
+            "duration": 300000,
+            "camera": {
+                "pos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1200
+                },
+                "lookAt": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "field": {
+                "color": "0x06b6d4",
+                "opacity": 0.7,
+                "noise": 0.0
+            },
+            "audio": {
+                "freq": 852,
+                "pulse": 0.8,
+                "label": "Divine Order"
+            }
+        },
+        {
+            "act": 8,
+            "title": "The New Aeon: Level 5.0",
+            "duration": 300000,
+            "camera": {
+                "pos": {
+                    "x": 0,
+                    "y": 100,
+                    "z": 200
+                },
+                "lookAt": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "field": {
+                "color": "0xffffff",
+                "opacity": 0.9,
+                "noise": 0.0
+            },
+            "audio": {
+                "freq": 963,
+                "pulse": 1.0,
+                "label": "Crown Connection"
+            }
+        }
+    ]
+}

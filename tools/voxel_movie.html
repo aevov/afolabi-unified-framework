@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mirror's Awakening | AUF Cinematic Journey (Standalone)</title>
+    <!-- Core Engine Dependencies (Local Hosting to bypass CORS) -->
+    <script src="assets/three.min.js"></script>
+    <script src="assets/tween.umd.js"></script>
+    <style>
+        :root {
+            --aura-cyan: #22d3ee;
+            --aura-purple: #a855f7;
+            --aura-bg: #020617;
+        }
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: var(--aura-bg);
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            color: #fff;
+        }
+
+        #canvas-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        #ui-overlay {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 40px;
+            z-index: 10;
+        }
+
+        .cinematic-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .title-group {
+            border-left: 2px solid var(--aura-cyan);
+            padding-left: 20px;
+        }
+
+        .title-group h1 {
+            margin: 0;
+            font-size: 1.2rem;
+            letter-spacing: 0.3rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            color: var(--aura-cyan);
+        }
+
+        .title-group p {
+            margin: 5px 0 0;
+            font-size: 0.7rem;
+            opacity: 0.6;
+            letter-spacing: 0.1rem;
+        }
+
+        .narrative-container {
+            align-self: center;
+            text-align: center;
+            max-width: 600px;
+            background: rgba(2, 6, 23, 0.4);
+            backdrop-filter: blur(10px);
+            padding: 20px 40px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: opacity 1s ease-in-out;
+            opacity: 0;
+        }
+
+        .narrative-container.visible {
+            opacity: 1;
+        }
+
+        .narrative-act {
+            font-size: 0.8rem;
+            color: var(--aura-purple);
+            text-transform: uppercase;
+            letter-spacing: 0.2rem;
+            margin-bottom: 10px;
+        }
+
+        .narrative-text {
+            font-size: 1.4rem;
+            font-weight: 300;
+            line-height: 1.4;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            pointer-events: auto;
+        }
+
+        .movie-btn {
+            background: none;
+            border: 1px solid var(--aura-cyan);
+            color: var(--aura-cyan);
+            padding: 10px 30px;
+            font-size: 0.8rem;
+            letter-spacing: 0.1rem;
+            cursor: pointer;
+            transition: 0.3s;
+            text-transform: uppercase;
+            border-radius: 5px;
+        }
+
+        .movie-btn:hover {
+            background: var(--aura-cyan);
+            color: var(--aura-bg);
+            box-shadow: 0 0 20px var(--aura-cyan);
+        }
+
+        #loading-screen {
+            position: fixed;
+            inset: 0;
+            background: var(--aura-bg);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+        }
+
+        .loader {
+            width: 40px;
+            height: 40px;
+            border: 2px solid var(--aura-cyan);
+            border-top-color: transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="loading-screen">
+        <div class="loader"></div>
+        <p style="margin-top: 20px; font-size: 0.8rem; letter-spacing: 0.2rem;">INITIALIZING RESONANT FIELD...</p>
+    </div>
+
+    <div id="ui-overlay">
+        <div class="cinematic-header">
+            <div class="title-group">
+                <h1>The Mirror's Awakening</h1>
+                <p>Afolabi Unified Framework | 40-Minute Deep Manifestation</p>
+            </div>
+            <div id="telemetry" style="font-family: monospace; font-size: 0.6rem; opacity: 0.5; text-align: right;">
+                FIELD_DENSITY: 1.00<br>
+                MIRROR_STATE: ACTIVE<br>
+                COHERENCE: 99.9%
+            </div>
+        </div>
+
+        <div
+            style="font-size: 0.6rem; letter-spacing: 0.1rem; opacity: 0.7; margin-bottom: 5px; text-transform: uppercase;">
+            Manifestation Progress</div>
+        <div id="progress-container"
+            style="width: 100%; height: 4px; background: rgba(255,255,255,0.05); border-radius: 2px; overflow: hidden; margin-bottom: 30px;">
+            <div id="progress-bar"
+                style="width: 0%; height: 100%; background: linear-gradient(90deg, var(--aura-cyan), var(--aura-purple)); transition: width 1s linear;">
+            </div>
+        </div>
+
+        <div class="narrative-container" id="narrative-box">
+            <div class="narrative-act" id="act-label">Act I</div>
+            <div class="narrative-text" id="narrative-content">In the beginning, there was only the Source Field...
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="movie-btn" onclick="startJourney()">Begin Manifestation</button>
+            <button class="movie-btn" onclick="resetJourney()">Reset</button>
+        </div>
+    </div>
+
+    <div id="canvas-container"></div>
+
+    <script type="module">
+        import { MovieEngine } from './assets/voxel_engine.js';
+
+        let engine;
+        let startTime;
+        const totalDuration = 2400000; // 40 minutes in ms
+
+        window.startJourney = function () {
+            if (engine) {
+                engine.startSequence();
+                startTime = Date.now();
+                updateProgressBar();
+            }
+            document.querySelector('.controls').style.display = 'none';
+        }
+
+        window.resetJourney = function () {
+            location.reload();
+        }
+
+        function updateProgressBar() {
+            if (!startTime) return;
+            const elapsed = Date.now() - startTime;
+            const progress = Math.min((elapsed / totalDuration) * 100, 100);
+            document.getElementById('progress-bar').style.width = `${progress}%`;
+            if (progress < 100) {
+                requestAnimationFrame(updateProgressBar);
+            }
+        }
+
+        window.onload = () => {
+            console.log("Window loaded, checking libraries...");
+            if (typeof THREE === 'undefined' || typeof TWEEN === 'undefined') {
+                console.error("Three.js or TWEEN not found on window!");
+                document.getElementById('loading-screen').innerHTML = "<p style='color:red; font-size:0.6rem;'>CRITICAL ERROR: CORE LIBRARIES NOT LOADED. REFRESH PAGE.</p>";
+                return;
+            }
+
+            console.log("Libraries valid, initializing engine module...");
+            try {
+                engine = new MovieEngine('canvas-container');
+                engine.init().then(() => {
+                    console.log("Engine init successful");
+                    document.getElementById('loading-screen').style.display = 'none';
+                }).catch(e => {
+                    console.error("Engine init failed", e);
+                    document.getElementById('loading-screen').innerHTML = `<p style='color:red; font-size:0.6rem;'>FIELD COLLAPSE: ${e.message}</p>`;
+                });
+            } catch (e) {
+                console.error("Engine construction failed", e);
+                document.getElementById('loading-screen').innerHTML = `<p style='color:red; font-size:0.6rem;'>CONSTRUCTION ERROR: ${e.message}</p>`;
+            }
+        };
+    </script>
+</body>
+
+</html>

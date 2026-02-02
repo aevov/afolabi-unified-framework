@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this framework, please cite it as below."
+authors:
+- family-names: "Afolabi"
+  given-names: "Babatope Jesse"
+  affiliation: "cr8OS Foundation"
+title: "Afolabi Unified Framework (AUF): A Vertical Stack for the Information-Matter Continuum"
+version: 1.0.0
+doi: 10.5281/zenodo.auf_placeholder
+date-released: 2026-01-30
+url: "https://github.com/cr8OS/afolabi-unified-framework"
+keywords:
+  - Afolabi Field Theory
+  - Neuroresonance Theory
+  - Quantum Mirror Theory
+  - Wave 4 AI
+  - Quantum Coherence
+  - Consciousness
