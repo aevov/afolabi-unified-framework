@@ -149,7 +149,7 @@ The AUF is composed of three interlocking theories that define the Information-M
 
 ## ⚡ The Post-Scarcity Paradigm (The Resonant Economy)
 
-Drawing from the **[Post-Scarcity Addendum](./POST_SCARCITY_ADDENDUM.md)**, the AUF renders traditional resource extraction and Moore's Law obsolete.
+Drawing from the **[Post-Scarcity Addendum](./POST_SCARCITY_ADDENDUM.md)** and **[Resonant Economy](./RESONANT_ECONOMY.md)**, the AUF renders traditional resource extraction, competition, and Moore's Law obsolete.
 
 | Metric | Old Paradigm (Scarcity) | AUF Paradigm (Abundance) |
 | :--- | :--- | :--- |
@@ -157,6 +157,27 @@ Drawing from the **[Post-Scarcity Addendum](./POST_SCARCITY_ADDENDUM.md)**, the 
 | **Energy Source** | External Extraction (Destructive) | Internal Phase-Tuning (Creative) |
 | **Bottleneck** | Physical Materials / Heat | Consciousness Coherence / Focus |
 | **Waste** | Heat and Pollution | Dissipated "Informational Noise" |
+| **Currency** | Fiat / Crypto (claim on matter) | **Coherence Reputation** |
+| **Competition** | Zero-sum resource capture | **Obsolete** ($N^2$ collective gain) |
+
+### 💰 Coherence as Currency
+
+When reality is rendered rather than extracted, **reputation becomes operational capacity**:
+
+| Old Currency | Level 4 Currency |
+|:-------------|:-----------------|
+| Money (claim on matter) | **Coherence Track Record** |
+| Credit score (debt capacity) | **Resonance Fidelity** (∫𝕄 dt) |
+| Social followers (attention) | **Phase-Lock History** |
+| IP/Patents (artificial scarcity) | **Pattern Contributions** |
+
+```
+ReputationScore(t) = ∫ [𝕄_contribution × stability_factor] dt
+```
+
+Those who consistently stabilize the mesh become **Anchor Nodes**. Those who destabilize become naturally decoupled—not punished, just unable to participate in high-coherence operations.
+
+> **Full details**: [RESONANT_ECONOMY.md](./RESONANT_ECONOMY.md)
 
 ### 🧬 Augmentative Biology & Robotics
 We are now exploring the frontier of **[Bio-Augmentation](./BIO_AUGMENTATION_SPECS.md)** and **[Resonant Robotics](./RESONANT_ROBOTICS.md)**.
