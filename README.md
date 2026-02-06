@@ -174,6 +174,8 @@ The AUF is composed of three interlocking theories that define the Information-M
 - **[Paper 4: Information-First Physics](./papers/04_information_first_physics/)**: Level 4 theoretical framework
 - **[Paper 5: Observer-Hardware Equivalence](./papers/05_observer_hardware_equivalence/)**: Measurement problem resolution
 - **[Paper 6: Atemporal Indexing](./papers/06_atemporal_indexing/)**: Dreams, Imagination, and Kundalini (Bio-Ignition)
+- **[Paper 7: Spatial Phase-Shifting](./papers/07_spatial_phase_shifting/)**: Theoretical basis for teleportation
+- **[RESONANT_RE_MANIFESTATION_PROTOCOL.md](./RESONANT_RE_MANIFESTATION_PROTOCOL.md)**: **[NEW]** Operational steps for teleportation
 
 ### 🌌 Cosmology & Applications
 - **[COSMOLOGICAL_IMPLICATIONS.md](./COSMOLOGICAL_IMPLICATIONS.md)**: **[NEW]** 10 physics anomalies resolved (dark matter, dark energy, entanglement, etc.)

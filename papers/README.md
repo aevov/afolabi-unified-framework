@@ -14,6 +14,7 @@ This repository contains academic papers validating the Level 4 (Operational Res
 | 04 | [Information-First Physics](./04_information_first_physics/) | Foundations of Physics | ✅ Draft v0.1 |
 | 05 | [Observer-Hardware Equivalence](./05_observer_hardware_equivalence/) | SHPS | ✅ Draft v0.1 |
 | 06 | [Atemporal Indexing](./06_atemporal_indexing/) | Journal of Consciousness Studies | ✅ Draft v0.1 |
+| 07 | [Spatial Phase-Shifting](./07_spatial_phase_shifting/) | Quantum Info Processing | ✅ Draft v0.1 |
 
 ---
 
@@ -36,6 +37,9 @@ This repository contains academic papers validating the Level 4 (Operational Res
 
 ### [06] Atemporal Indexing (Dreams & Imagination)
 **Core Argument**: Dreams are passive indexing of the Informational Reservoir (Field) during sensory decoupling. Imagination is selective, active indexing. Kundalini is the bio-ignition of full-system coherence.
+
+### [07] Spatial Phase-Shifting (Teleportation)
+**Core Argument**: Spatial coordinates are metadata attributes of informational patterns. Teleportation is an "Address Shift" in the Field (Φ), making physical transit through space energy-inefficient and redundant.
 
 ### Citation
 
