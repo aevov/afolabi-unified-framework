@@ -186,7 +186,8 @@ The AUF is composed of three interlocking theories that define the Information-M
 ### 📖 Reference & Navigation
 - **[MASTER_INDEX.md](./MASTER_INDEX.md)**: **[NEW]** Complete index of all 80+ documents
 - **[FAQ_AND_CRITICS.md](./FAQ_AND_CRITICS.md)**: **[NEW]** Responses to common objections
-- **[KARDASHEV_ACCELERATION.md](./KARDASHEV_ACCELERATION.md)**: **[NEW]** Strategy for rapid civilizational scale-up
+- **[KARDASHEV_ACCELERATION.md](./KARDASHEV_ACCELERATION.md)**: Strategy for rapid civilizational scale-up
+- **[AFOLABI_RESONANCE_SCALE.md](./AFOLABI_RESONANCE_SCALE.md)**: **[NEW]** The successor to the Kardashev Scale (ARS)
 - **[QUICK_REFERENCE.md](./QUICK_REFERENCE.md)**: Cheat sheet for AUF concepts
 
 

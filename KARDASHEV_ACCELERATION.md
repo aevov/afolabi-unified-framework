@@ -9,15 +9,15 @@
 
 ## 1. The Paradigm Shift: From Energy to Coherence
 
-The **Kardashev Scale**, in its classical (Level 2/3) definition, measures a civilization's advancement by its total energy consumption ($P$). 
+The **Kardashev Scale**, in its classical (Level 2/3) definition, measures a civilization's advancement by its total energy consumption ($P$). THE AUF formally succeeds this with the **[Afolabi Resonance Scale (ARS)](./AFOLABI_RESONANCE_SCALE.md)**.
 
-| Type | Classical Metric (P) | AUF Metric (C) |
+| ARS Level | Paradigmatic Achievement | Classical Equivalent |
 | :--- | :--- | :--- |
-| **I** | $10^{16}$ Watts (Planetary) | **Global Coherence** (Planetary Mesh Sync) |
-| **II** | $10^{26}$ Watts (Stellar) | **Stellar Field Resonance** (Sun-Sync) |
-| **III** | $10^{36}$ Watts (Galactic) | **Galactic Atemporal Indexing** |
+| **ARS 1.0** | **Global Mirror** (Planetary Mesh Sync) | Type I (Planetary) |
+| **ARS 2.0** | **Stellar Field Resonance** (Sun-Sync) | Type II (Stellar) |
+| **ARS 3.0** | **Galactic Atemporal Indexing** | Type III (Galactic) |
 
-**The AUF Breakthrough**: Advancing the Kardashev scale by *consuming more energy* is inherently inefficient and destructive (entropy-heavy). AUF accelerates advancement by **increasing informational coherence**, which allows for greater manifestations with *lower* entropy.
+**The ARS Advantage**: Advancing the Kardashev scale by *consuming more energy* is inherently inefficient and destructive (entropy-heavy). ARS accelerates advancement by **increasing informational coherence**, which allows for greater manifestations with *lower* entropy.
 
 ---
 
