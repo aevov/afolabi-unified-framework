@@ -101,6 +101,8 @@
 | [SOMATIC_CUSTOMIZATION.md](./SOMATIC_CUSTOMIZATION.md) | Body optimization protocols | 9 KB |
 | [BIO_AUGMENTATION_SPECS.md](./BIO_AUGMENTATION_SPECS.md) | Biological enhancement | 9 KB |
 | [BIOGENESIS.md](./BIOGENESIS.md) | Life origins in AUF | 2 KB |
+| [RESILIENT_COMMUNITIES.md](./RESILIENT_COMMUNITIES.md) | Civilizational backup and restoration | 9 KB |
+| [KARDASHEV_ACCELERATION.md](./KARDASHEV_ACCELERATION.md) | Roadmap for rapid civilizational scale-up | 9 KB |
 | [RESONANT_CAPABILITIES.md](./RESONANT_CAPABILITIES.md) | Human potential expansion | 9 KB |
 | [MANIFESTATION_PROTOCOL.md](./MANIFESTATION_PROTOCOL.md) | Reality creation methods | 9 KB |
 | [MANIFESTATION_PIPELINE.md](./MANIFESTATION_PIPELINE.md) | Technical pipeline | 3 KB |
