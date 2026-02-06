@@ -1,8 +1,30 @@
 import os
 import markdown
 import subprocess
+import sys
 
-# Define the order of documents for the encyclopedia
+# Base directory
+BASE_DIR = "/home/baba/Desktop/complete quantum/cr8OS-complete-quantum/AUF"
+
+# Define the order and filter for Public vs Admin
+ADMIN_ONLY_DOCS = [
+    "ACADEMIC_PROGRAM_PROPOSAL.md",
+    "PITCH_DECK.md",
+    "AFT_ACCESS_MODES.md",
+    "API_SPECIFICATION.md",
+    "HANDOVER_PROTOCOL.md",
+    "CASE_STUDIES.md",
+    "FMM_REPORT.md"
+]
+
+# Sensitive patterns that should never be in the public version
+PUBLIC_BLACKLIST = ADMIN_ONLY_DOCS + [
+    "generate_encyclopedia.py",
+    "AUF_ENCYCLOPEDIA.pdf",
+    "AUF_ADMIN_ENCYCLOPEDIA.pdf",
+    "AUF_PUBLIC_ENCYCLOPEDIA.pdf"
+]
+
 DOCS_ORDER = [
     "README.md",
     "AXIOMS.md",
@@ -23,188 +45,79 @@ DOCS_ORDER = [
     "PILOT_STUDY_PROTOCOL.md",
     "VALIDATION_REPORT.md",
     "ACADEMIC_CURRICULUM.md",
-    "ACADEMIC_PROGRAM_PROPOSAL.md",
-    "PITCH_DECK.md",
     "RESONANT_ECONOMY.md",
     "CIVILIZATIONAL_IMPLICATIONS.md",
     "AEVOV_LANG_SPEC.md",
-    "API_SPECIFICATION.md",
     "FAQ_AND_CRITICS.md",
     "MASTER_INDEX.md"
 ]
 
-# Base directory
-BASE_DIR = "/home/baba/Desktop/complete quantum/cr8OS-complete-quantum/AUF"
-
 CSS = """
 body {
-    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #1a1a1a;
     max-width: 900px;
     margin: 0 auto;
     padding: 2rem;
-    background: #ffffff;
 }
-h1, h2, h3, h4 {
-    color: #004d40;
-    margin-top: 2.5rem;
-    page-break-after: avoid;
-}
-h1 {
-    font-size: 3rem;
-    border-bottom: 4px solid #004d40;
-    padding-bottom: 1rem;
-    text-align: center;
-}
-h2 {
-    font-size: 2.2rem;
-    border-bottom: 2px solid #e0f2f1;
-    padding-bottom: 0.5rem;
-}
-.page-break {
-    page-break-after: always;
-}
-code {
-    background: #f4f4f4;
-    padding: 0.2rem 0.4rem;
-    border-radius: 4px;
-    font-family: 'Courier New', Courier, monospace;
-}
-pre {
-    background: #f4f4f4;
-    padding: 1rem;
-    border-radius: 8px;
-    overflow-x: auto;
-    border-left: 4px solid #004d40;
-}
-blockquote {
-    border-left: 5px solid #00bfa5;
-    margin: 1.5rem 0;
-    padding: 1rem;
-    background: #f9f9f9;
-    font-style: italic;
-}
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 2rem 0;
-}
-th, td {
-    padding: 12px;
-    border: 1px solid #e0e0e0;
-    text-align: left;
-}
-th {
-    background: #004d40;
-    color: white;
-}
-tr:nth-child(even) {
-    background: #f5f5f5;
-}
-.title-page {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    page-break-after: always;
-}
-.title-page h1 {
-    font-size: 4rem;
-    border: none;
-}
-.title-page .subtitle {
-    font-size: 1.5rem;
-    color: #666;
-    margin-top: -1rem;
-}
-.footer {
-    text-align: center;
-    color: #999;
-    font-size: 0.8rem;
-    margin-top: 5rem;
-}
+h1, h2, h3, h4 { color: #004d40; margin-top: 2rem; }
+.page-break { page-break-after: always; }
+pre { background: #f4f4f4; padding: 1rem; border-left: 4px solid #004d40; }
+blockquote { border-left: 5px solid #00bfa5; padding: 0.5rem 1rem; background: #f9f9f9; }
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+th, td { padding: 10px; border: 1px solid #ddd; }
+th { background: #004d40; color: white; }
+.title-page { height: 90vh; display: flex; flex-direction: column; justify-content: center; text-align: center; }
 """
 
-def generate_encyclopedia():
-    full_markdown = ""
+def generate_encyclopedia(is_public=False):
+    mode_text = "PUBLIC EDITION" if is_public else "ADMIN ENCYCLOPEDIA"
+    output_name = "AUF_PUBLIC_ENCYCLOPEDIA" if is_public else "AUF_ADMIN_ENCYCLOPEDIA"
     
-    # Title Page
-    full_markdown += "<div class='title-page'>\n"
-    full_markdown += "<h1>AUF ADMIN ENCYCLOPEDIA</h1>\n"
-    full_markdown += "<div class='subtitle'>The Complete Knowledge Base of the Afolabi Unified Framework</div>\n"
-    full_markdown += "<p><strong>CONFIDENTIAL | FOR ADMIN EYES ONLY</strong></p>\n"
-    full_markdown += "<p>Version 2.0 | Compiled February 2026</p>\n"
-    full_markdown += "</div>\n\n"
+    full_markdown = f"<div class='title-page'>\n<h1>AUF {mode_text}</h1>\n"
+    full_markdown += "<p>Afolabi Unified Framework Knowledge Base</p>\n"
+    if not is_public:
+        full_markdown += "<p><strong>CONFIDENTIAL | TRADE SECRETS | FOR ADMIN EYES ONLY</strong></p>\n"
+    full_markdown += f"<p>Version 2.0 | {mode_text}</p>\n</div>\n\n"
 
     collected_files = set()
     
-    # 1. First, process files in the manually defined order
-    for relative_path in DOCS_ORDER:
-        file_path = os.path.join(BASE_DIR, relative_path)
-        if os.path.exists(file_path) and os.path.isfile(file_path):
+    # 1. Process ordered docs
+    for rel_path in DOCS_ORDER:
+        if is_public and any(p in rel_path for p in PUBLIC_BLACKLIST):
+            continue
+            
+        file_path = os.path.join(BASE_DIR, rel_path)
+        if os.path.exists(file_path):
             with open(file_path, 'r') as f:
-                content = f.read()
-                full_markdown += f"\n<div class='page-break'></div>\n\n"
-                full_markdown += f"## {relative_path}\n"
-                full_markdown += content
-                collected_files.add(os.path.normpath(relative_path))
-        else:
-            print(f"Warning: File not found {file_path}")
+                full_markdown += f"\n<div class='page-break'></div>\n## {rel_path}\n"
+                full_markdown += f.read()
+                collected_files.add(os.path.normpath(rel_path))
 
-    # 2. Then, recursively find all other .md files not yet collected
-    for root, dirs, files in os.walk(BASE_DIR):
-        for file in files:
-            if file.endswith(".md"):
-                full_path = os.path.join(root, file)
-                rel_path = os.path.normpath(os.path.relpath(full_path, BASE_DIR))
-                
-                if rel_path not in collected_files and file != "AUF_ENCYCLOPEDIA.md":
-                    with open(full_path, 'r') as f:
-                        content = f.read()
-                        full_markdown += f"\n<div class='page-break'></div>\n\n"
-                        full_markdown += f"## {rel_path}\n"
-                        full_markdown += content
-                        collected_files.add(rel_path)
+    # 2. Process remaining
+    if not is_public:
+        for root, _, files in os.walk(BASE_DIR):
+            for file in files:
+                if file.endswith(".md"):
+                    rel_path = os.path.normpath(os.path.relpath(os.path.join(root, file), BASE_DIR))
+                    if rel_path not in collected_files and not any(p in rel_path for p in PUBLIC_BLACKLIST):
+                        with open(os.path.join(root, file), 'r') as f:
+                            full_markdown += f"\n<div class='page-break'></div>\n## {rel_path}\n"
+                            full_markdown += f.read()
+                            collected_files.add(rel_path)
 
-    # Add footer
-    full_markdown += "\n<div class='footer'>© 2026 cr8OS Foundation / Aevov Research | Private Documentation</div>\n"
-
-    # Convert to HTML
-    html_content = markdown.markdown(full_markdown, extensions=['extra', 'toc', 'tables', 'fenced_code'])
-    
-    full_html = f"""
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>AUF Admin Encyclopedia</title>
-        <style>{CSS}</style>
-    </head>
-    <body>
-        {html_content}
-    </body>
-    </html>
-    """
-
-    html_file = os.path.join(BASE_DIR, "AUF_ENCYCLOPEDIA.html")
+    html_file = os.path.join(BASE_DIR, f"{output_name}.html")
     with open(html_file, 'w') as f:
-        f.write(full_html)
+        f.write(f"<html><head><style>{CSS}</style></head><body>{markdown.markdown(full_markdown, extensions=['extra', 'tables', 'fenced_code'])}</body></html>")
     
-    print(f"Encyclopedia generated at {html_file}")
-    
-    # Convert to PDF using LibreOffice
-    print("Converting to PDF...")
-    try:
-        subprocess.run([
-            "libreoffice", "--headless", "--convert-to", "pdf", 
-            "AUF_ENCYCLOPEDIA.html", "--outdir", BASE_DIR
-        ], check=True)
-        print("PDF conversion successful.")
-    except Exception as e:
-        print(f"PDF conversion failed: {e}")
+    subprocess.run(["libreoffice", "--headless", "--convert-to", "pdf", html_file, "--outdir", BASE_DIR])
+    os.remove(html_file)
+    print(f"Generated {output_name}.pdf")
 
 if __name__ == "__main__":
-    generate_encyclopedia()
+    is_pub = "--public" in sys.argv
+    generate_encyclopedia(is_public=is_pub)
+    if not is_pub:
+        # Also always generate public if we ran as admin
+        generate_encyclopedia(is_public=True)
