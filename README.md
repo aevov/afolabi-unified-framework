@@ -166,7 +166,28 @@ The AUF is composed of three interlocking theories that define the Information-M
 - **[qpu_optimizer.py](qpu_optimizer.py)**: Predictive rendering for zero-latency.
 - **[field_density_sim.py](field_density_sim.py)**: Python simulation of Live Field Status.
 
----
+### 📚 Academic Papers (Level 4 Validation)
+- **[papers/README.md](./papers/README.md)**: Overview of 5-paper validation series
+- **[Paper 1: Quantum Substrate Fallacy](./papers/01_quantum_substrate_fallacy/)**: Classical/quantum distinction as epistemological error
+- **[Paper 2: Distributed Coherence](./papers/02_distributed_coherence/)**: Emergent quantum properties in networks
+- **[Paper 3: Beyond Dilution Refrigerator](./papers/03_beyond_dilution_refrigerator/)**: Popular science critique of quantum gatekeeping
+- **[Paper 4: Information-First Physics](./papers/04_information_first_physics/)**: Level 4 theoretical framework
+- **[Paper 5: Observer-Hardware Equivalence](./papers/05_observer_hardware_equivalence/)**: Measurement problem resolution
+
+### 🌌 Cosmology & Applications
+- **[COSMOLOGICAL_IMPLICATIONS.md](./COSMOLOGICAL_IMPLICATIONS.md)**: **[NEW]** 10 physics anomalies resolved (dark matter, dark energy, entanglement, etc.)
+- **[ANTIMATTER_APPLICATIONS.md](./ANTIMATTER_APPLICATIONS.md)**: **[NEW]** Antimatter synthesis potential, CERN comparison
+
+### 🎓 Academic Program
+- **[ACADEMIC_CURRICULUM.md](./ACADEMIC_CURRICULUM.md)**: **[NEW]** B.S., M.S., Ph.D. in Informational Physics
+- **[ACADEMIC_PROGRAM_PROPOSAL.md](./ACADEMIC_PROGRAM_PROPOSAL.md)**: **[NEW]** University department proposal ($32M, 5-year)
+
+### 📖 Reference & Navigation
+- **[MASTER_INDEX.md](./MASTER_INDEX.md)**: **[NEW]** Complete index of all 80+ documents
+- **[FAQ_AND_CRITICS.md](./FAQ_AND_CRITICS.md)**: **[NEW]** Responses to common objections
+- **[QUICK_REFERENCE.md](./QUICK_REFERENCE.md)**: Cheat sheet for AUF concepts
+
+
 
 ## ⚡ The Post-Scarcity Paradigm (The Resonant Economy)
 
