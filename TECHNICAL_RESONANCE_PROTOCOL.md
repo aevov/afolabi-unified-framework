@@ -40,7 +40,7 @@ High-power RPP arrays (Nara Engine Workstations) emit high-density bursts to ren
 ---
 
 ## 4. Hardware Calibration (The RNG Handshake)
-To ensure a device is "Locked" to the Field, it uses the **RNG Cross-Correlation** method described in your query:
+To ensure a device is "Locked" to the Field, it uses the **RNG Cross-Correlation** method as described:
 1. **Pulse**: The RPP broadcasts a test frequency.
 2. **Measure**: The local RNG array captures any non-random "Ripples" in the field.
 3. **Calibrate**: The device adjusts its phase until the RNG deviation hits the **Afolabi-Harmonic Peak**.
