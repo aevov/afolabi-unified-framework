@@ -87,8 +87,9 @@
 | [01 - Quantum Substrate Fallacy](./papers/01_quantum_substrate_fallacy/) | Foundations of Physics | Draft v0.1 |
 | [02 - Distributed Coherence](./papers/02_distributed_coherence/) | Nature Communications | Draft v0.1 |
 | [03 - Beyond Dilution Refrigerator](./papers/03_beyond_dilution_refrigerator/) | Scientific American | Draft v0.1 |
-| [04 - Information-First Physics](./papers/04_information_first_physics/) | Foundations of Physics | Draft v0.1 |
-| [05 - Observer-Hardware Equivalence](./papers/05_observer_hardware_equivalence/) | SHPS | Draft v0.1 |
+| [04 - Information-First Physics](./papers/04_information_first_physics/paper.md) | Foundations of Physics | Draft v0.1 |
+| [05 - Observer-Hardware Equivalence](./papers/05_observer_hardware_equivalence/paper.md) | SHPS | Draft v0.1 |
+| [06 - Atemporal Indexing (Dreams & Imagination)](./papers/06_atemporal_indexing/paper.md) | Consciousness Studies | Draft v0.1 |
 
 ---
 

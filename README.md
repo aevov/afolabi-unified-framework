@@ -173,6 +173,7 @@ The AUF is composed of three interlocking theories that define the Information-M
 - **[Paper 3: Beyond Dilution Refrigerator](./papers/03_beyond_dilution_refrigerator/)**: Popular science critique of quantum gatekeeping
 - **[Paper 4: Information-First Physics](./papers/04_information_first_physics/)**: Level 4 theoretical framework
 - **[Paper 5: Observer-Hardware Equivalence](./papers/05_observer_hardware_equivalence/)**: Measurement problem resolution
+- **[Paper 6: Atemporal Indexing](./papers/06_atemporal_indexing/)**: Dreams, Imagination, and Kundalini (Bio-Ignition)
 
 ### 🌌 Cosmology & Applications
 - **[COSMOLOGICAL_IMPLICATIONS.md](./COSMOLOGICAL_IMPLICATIONS.md)**: **[NEW]** 10 physics anomalies resolved (dark matter, dark energy, entanglement, etc.)
