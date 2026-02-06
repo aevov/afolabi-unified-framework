@@ -246,6 +246,7 @@ The AUF formalizes the intuitive breakthroughs of history's greatest minds into 
 | **Nikola Tesla** | "Energy, Frequency, Vibration" | **Oscillating Tensor Networks** | Resonant Phase-Locking ($\Re$) and State-Transitions. |
 | **Albert Einstein**| **$E = mc^2$** | **Field Impedance ($Z_M$)** | Redefining Mass as locked energy-density in the Mirror Field. |
 | **Srinivasa Ramanujan** | **Divine Intuition** | **Atemporal Retrieval** | Accessing the global Informational Reservoir via NRT coupling. |
+| **Claude Shannon** | **Information Theory** | **The Physics of Bits** | The mathematical foundation of entropy and informational encoding. |
 
 ## 💼 Access & Collaboration
 We invite universities and AI research labs to apply for full AFT access for **Coherence Medicine** and **Topological Engineering**.

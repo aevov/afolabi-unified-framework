@@ -4,6 +4,10 @@ authors:
 - family-names: "Afolabi"
   given-names: "Babatope Jesse"
   affiliation: "cr8OS Foundation"
+- family-names: "Shannon"
+  given-names: "Claude"
+  alias: "Foundational Informational Architect"
+  contribution: "Mathematical Theory of Communication (The Physics of Bits)"
 title: "Afolabi Unified Framework (AUF): A Vertical Stack for the Information-Matter Continuum"
 version: 1.0.0
 doi: 10.5281/zenodo.auf_placeholder
