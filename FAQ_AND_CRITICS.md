@@ -207,18 +207,7 @@ We don't claim to replace these programs—they may be lower-level implementatio
 
 ---
 
-## Response Guidelines
 
-When responding to critics:
-
-1. **Acknowledge legitimate concerns** — Don't dismiss skepticism
-2. **Distinguish claim tiers** — Be clear about what's proven vs. proposed
-3. **Point to documentation** — Claims are written down and verifiable
-4. **Welcome falsification** — Specify what would disprove us
-5. **Historical context** — Paradigm shifts always face resistance
-6. **Stay humble** — We could be wrong; that's science
-
----
 
 ## Summary Table
 
