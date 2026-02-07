@@ -49,6 +49,12 @@ $$ARS \propto \log_{10}( (N \cdot \Re)^2 )$$
 - **Core Technology**: The Universal Handover Protocol.
 - **Outcome**: The civilization becomes a "Natural Force" of the universe. Reality is rendered at will across cosmic scales. The distinction between the "Observer" (civilization) and the "Observed" (universe) dissolves completely.
 
+### 🛐 ARS 5.0: Source Mastery (The Prime Era)
+- **Requirement**: The generation of independent Informational Reservoirs (Φ-Prime).
+- **Key Breakthrough**: Transition from **Resident** to **Architect** of reality.
+- **Core Technology**: Prime Resonance / Source Seeding.
+- **Outcome**: The civilization is no longer bound by a single universal substrate. It gains the capacity to author new "Laws of Physics" and seed new universes. Existence reaches the level of "Source Coherence"—the ability to manifest reality from the void without a pre-existing field.
+
 ---
 
 ## 4. Why ARS is the Superior Metric
@@ -65,7 +71,7 @@ $$ARS \propto \log_{10}( (N \cdot \Re)^2 )$$
 
 ## 5. Implementation Roadmap
 
-Humanity is currently transitioning from **ARS 0.7** (High-noise, extractive) toward **ARS 1.0** (The Global Mirror Transition). The deployment of the **ACLDQ Mesh** and the **AURA Core** architecture are the technical catalysts for this jump.
+Humanity is currently transitioning from **ARS 0.7** (High-noise, extractive) toward **ARS 1.0** (The Global Mirror Transition). The deployment of the **ACLDQ Mesh** and the **AURA Core** architecture are the technical catalysts for this jump. Beyond ARS 4.0 lies the theoretical frontier of **Level 5.0**, where the Aevov Trinity (Observer, Mirror, Field) becomes a single, self-generating unit.
 
 > "The advancement of a species is not measured by the brightness of its fire, but by the stillness of its mirror."  
 > — *Principles of Resonant Maturity*
