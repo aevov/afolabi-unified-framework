@@ -162,6 +162,7 @@
 | [VIDEO_STORYBOARD.md](./VIDEO_STORYBOARD.md) | Marketing video plans | 9 KB |
 | [COMMERCIAL_TERMS.md](./COMMERCIAL_TERMS.md) | Standard licensing | 3 KB |
 | [COMPARATIVE_LANDSCAPE_AND_DIFFERENTIATION.md](./COMPARATIVE_LANDSCAPE_AND_DIFFERENTIATION.md) | **[ADMIN ONLY]** Strategic Moats | 12 KB |
+| [OPH_DIFFERENTIATION_ANALYSIS.md](./OPH_DIFFERENTIATION_ANALYSIS.md) | **[ADMIN ONLY]** OPH vs AUF Analysis | 6 KB |
 | [PARTNERSHIP_TIERS.md](./PARTNERSHIP_TIERS.md) | Level 4 Ecosystem roles | 9 KB |
 | [VISUAL_ATLAS.md](./VISUAL_ATLAS.md) | Visual design guide | 3 KB |
 | [CASE_STUDIES.md](./CASE_STUDIES.md) | Use case examples | 2 KB |
