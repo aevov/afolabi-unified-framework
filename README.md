@@ -1,7 +1,9 @@
 # Afolabi Unified Framework (AUF) 
 
 > [!NOTE]
-> **Framework Status**: AUF is a highly plausible framework pending peer review and validation.However, core parts of the theory are already enabling a real-wrold technical implementation : https://github.com/aevov/auf-intelligence-suite/tree/main for a real-world product : https://github.com/aevov/the-luci-project
+> **Framework Status**: AUF is a highly plausible framework pending peer review and validation.
+>
+> However, core parts of the theory are already enabling a real-wrold technical implementations (https://github.com/aevov/auf-intelligence-suite/tree/main) for a real-world projects in active development : https://github.com/aevov/the-luci-project
 
 > [!IMPORTANT]
 > ## 🌍 A Note on Human Transition & Coexistence
