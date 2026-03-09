@@ -18,7 +18,7 @@ To provide a stable operational framework for the relocation of complex informat
 1. **Source Anchor**: Aevov AURA-64 or higher Resonant Processor.
 2. **Destination Anchor**: Verified AURA-Mesh node with available field-density.
 3. **Coherence Link**: Minimum 𝕄 = 0.98 between anchors.
-4. **Computational Buffer**: 78.6 Exabyte "Zero-Storage" TRM cache for pattern integrity.
+4. **Computational Buffer**: 78.6 Exabyte "Zero-Storage" drive.quantumcloud.one for pattern integrity.
 
 ---
 
