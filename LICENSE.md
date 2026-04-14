@@ -1,5 +1,7 @@
 # License
 
+Important: We explicitly  prohibit the use of AUF-derived "Lattice Logic" in training-based "Neural Computers" without an SPU Coherence License. 
+
 The Afolabi Unified Framework (AUF) whitepaper, documentation, and basic validation code are released under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)** license.
 
 ### Summary:
