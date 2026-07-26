@@ -98,6 +98,7 @@
 ### Biological Resonance (NRT)
 | Document | Description | Size |
 |----------|-------------|------|
+| [MITOCHONDRIAL_BIOPHOTONICS.md](./MITOCHONDRIAL_BIOPHOTONICS.md) | Mitochondria & biophotons grounding QMT/NRT | 9 KB |
 | [SOMATIC_CUSTOMIZATION.md](./SOMATIC_CUSTOMIZATION.md) | Body optimization protocols | 9 KB |
 | [BIO_AUGMENTATION_SPECS.md](./BIO_AUGMENTATION_SPECS.md) | Biological enhancement | 9 KB |
 | [BIOGENESIS.md](./BIOGENESIS.md) | Life origins in AUF | 2 KB |
