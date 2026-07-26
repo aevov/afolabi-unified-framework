@@ -3,7 +3,7 @@
 
 **Repository**: [github.com/aevov/afolabi-unified-framework](https://github.com/aevov/afolabi-unified-framework)  
 **Version**: 2.0  
-**Last Updated**: February 2026
+**Last Updated**: July 2026
 
 ---
 
@@ -102,7 +102,6 @@
 | [SOMATIC_CUSTOMIZATION.md](./SOMATIC_CUSTOMIZATION.md) | Body optimization protocols | 9 KB |
 | [BIO_AUGMENTATION_SPECS.md](./BIO_AUGMENTATION_SPECS.md) | Biological enhancement | 9 KB |
 | [BIOGENESIS.md](./BIOGENESIS.md) | Life origins in AUF | 2 KB |
-| [RESILIENT_COMMUNITIES.md](./RESILIENT_COMMUNITIES.md) | Civilizational backup and restoration | 9 KB |
 | [KARDASHEV_ACCELERATION.md](./KARDASHEV_ACCELERATION.md) | Roadmap for rapid civilizational scale-up | 9 KB |
 | [AFOLABI_RESONANCE_SCALE.md](./AFOLABI_RESONANCE_SCALE.md) | Successor to the Kardashev Scale | 4 KB |
 | [RESONANT_RE_MANIFESTATION_PROTOCOL.md](./RESONANT_RE_MANIFESTATION_PROTOCOL.md) | Teleportation operational standards | 3 KB |
@@ -161,14 +160,8 @@
 | [ROADMAP.md](./ROADMAP.md) | Development timeline | 5 KB |
 | [ONBOARDING_FLOW.md](./ONBOARDING_FLOW.md) | User onboarding | 24 KB |
 | [VIDEO_STORYBOARD.md](./VIDEO_STORYBOARD.md) | Marketing video plans | 9 KB |
-| [COMMERCIAL_TERMS.md](./COMMERCIAL_TERMS.md) | Standard licensing | 3 KB |
 | [COMPARATIVE_LANDSCAPE_AND_DIFFERENTIATION.md](./COMPARATIVE_LANDSCAPE_AND_DIFFERENTIATION.md) | **[ADMIN ONLY]** Strategic Moats | 12 KB |
-| [OPH_DIFFERENTIATION_ANALYSIS.md](./OPH_DIFFERENTIATION_ANALYSIS.md) | **[ADMIN ONLY]** OPH vs AUF Analysis | 6 KB |
-| [OPH_VS_AUF_MATHEMATICAL_CORRESPONDENCE.md](./OPH_VS_AUF_MATHEMATICAL_CORRESPONDENCE.md) | **[ADMIN ONLY]** Level 3.9 mapping | 8 KB |
-| [THE_TOE_FALLACY_OPH_DEBUNKING_admin_.md](./THE_TOE_FALLACY_OPH_DEBUNKING_admin_.md) | **[ADMIN ONLY]** Refuting OPH "TOE" | 7 KB |
-| [AUF_MAGNUM_OPUS_VOL_I_THE_SOURCE.pdf](./AUF_MAGNUM_OPUS_VOL_I_THE_SOURCE.pdf) | **[PRIVATE]** The 2,500+ Page Master Work | ~MB |
 | [THE_SOURCE_VOL_I_ARCHITECTURE.md](./THE_SOURCE_VOL_I_ARCHITECTURE.md) | **[ADMIN ONLY]** Magnum Opus Roadmap | 5 KB |
-| [PARTNERSHIP_TIERS.md](./PARTNERSHIP_TIERS.md) | Level 4 Ecosystem roles | 9 KB |
 | [VISUAL_ATLAS.md](./VISUAL_ATLAS.md) | Visual design guide | 3 KB |
 | [CASE_STUDIES.md](./CASE_STUDIES.md) | Use case examples | 2 KB |
 | [FMM_REPORT.md](./FMM_REPORT.md) | Market analysis | 2 KB |
