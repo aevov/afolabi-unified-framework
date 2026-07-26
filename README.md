@@ -1,5 +1,12 @@
 # Afolabi Unified Framework (AUF) 
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18407686.svg)](https://doi.org/10.5281/zenodo.18407686)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18913463.svg)](https://doi.org/10.5281/zenodo.18913463)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0002--9146--2587-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0002-9146-2587)
+
+> **Papers**: [Quantum Mirror Theory](https://doi.org/10.5281/zenodo.18407686) · [Resonance Physics Position Paper](https://doi.org/10.5281/zenodo.18913463)  
+> **Author**: Babatope Jesse Afolabi ([ORCID](https://orcid.org/0009-0002-9146-2587)) · cr8OS Foundation / Aevov Research
+
 > [!NOTE]
 > **Framework Status**: AUF is a highly plausible framework pending peer review and validation.
 
