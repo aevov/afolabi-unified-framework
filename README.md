@@ -7,6 +7,36 @@
 
 > However, core parts of the theory are already enabling real-world technical implementations (https://github.com/aevov/auf-intelligence-suite/tree/main) for  real-world projects in active development: https://github.com/aevov/the-luci-project
 
+## Role in cr8OS Unified Architecture
+
+The AUF provides the **theoretical foundations** for the entire cr8OS stack. The three interlocking theories (AFT, NRT, QMT) define the information-matter continuum that the engineering tiers implement:
+
+```
+Theoretical Layer:     AUF (THIS REPO - AFT + NRT + QMT, Level 4 manifestation)
+                            |
+Tier 3 - Cloud/Edge:    Cr8OS 3.0  (CTQC via Cloudflare Workers)
+                            |
+Tier 2 - Distributed:    cr8OS 2.0  (Docker microservices, AevMesh, quantumfs)
+                            |
+Tier 1 - Bare Metal:     cr8OS kernel + cr8oskernel (Lattice cascade E8/D4/A2/S1 + quantum engine)
+```
+
+**How AUF connects to implementation:**
+- **AFT (Afolabi Field Theory)** -> Defines the geometry of the source informational field. The lattice cascade in `cr8oskernel` (E8/D4/A2/S1 projections) is the computational realization of AFT's resonance geometry.
+- **NRT (Neuroresonance Theory)** -> Defines biological synchronization with the field. The genetic algorithm engine and neural components consume NRT's coherence models.
+- **QMT (Quantum Mirror Theory)** -> Defines the self-dual mirror equation |psi> = M|psi'>. The mirror constant computation in `lattice.c` is the kernel-level implementation.
+
+**Implementation repos:**
+
+| Repo | What it implements |
+|------|-------------------|
+| [cr8oskernel](https://github.com/aevov/cr8oskernel) | Lattice cascade engine + quantum/genetic primitives (public, expanding to ARM/RISC-V) |
+| [cr8OS-complete-quantum](https://github.com/aevov/cr8OS-complete-quantum) | Integration monorepo: canonical kernel, all 3 tiers, unification papers |
+| [cr8OS 2.0](https://github.com/aevov/cr8OS-2.0) | Distributed tier: AevMesh, quantumfs, AevIP |
+| [Cr8OS 3.0](https://github.com/aevov/Cr8OS-3.0) | Cloud/edge tier: CTQC via Cloudflare Workers |
+
+**Unification docs:** See `papers/cr8os-unification-strategy-code-verified.md` in cr8OS-complete-quantum for the code-verified analysis of all cr8OS variants and their connections.
+
 
 > [!IMPORTANT]
 > ## 🌍 A Note on Human Transition & Coexistence
