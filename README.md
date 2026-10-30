@@ -35,7 +35,7 @@ Tier 1 - Bare Metal:     cr8OS kernel + cr8oskernel (Lattice cascade E8/D4/A2/S1
 | [cr8oskernel](https://github.com/aevov/cr8oskernel) | Lattice cascade engine + quantum/genetic primitives (public, expanding to ARM/RISC-V) |
 | [cr8OS-complete-quantum](https://github.com/aevov/cr8OS-complete-quantum) | Integration monorepo: canonical kernel, all 3 tiers, unification papers |
 | [cr8OS 2.0](https://github.com/aevov/cr8OS-2.0) | Distributed tier: AevMesh, quantumfs, AevIP |
-| [Cr8OS 3.0](https://github.com/aevov/Cr8OS-3.0) | Cloud/edge tier: CTQC via Cloudflare Workers |
+| [Cr8OS 3.0](https://github.com/aevov/Cr8OS-3.0) | Cloud/edge tier: CTQC via Aevmesh (our QUantum native mesh that doesn't rely on any third party)|
 
 **Unification docs:** See `papers/cr8os-unification-strategy-code-verified.md` in cr8OS-complete-quantum for the code-verified analysis of all cr8OS variants and their connections.
 
