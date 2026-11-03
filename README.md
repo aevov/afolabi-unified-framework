@@ -16,7 +16,7 @@ The AUF provides the **theoretical foundations** for the entire cr8OS stack. The
 ```
 Theoretical Layer:     AUF (THIS REPO - AFT + NRT + QMT, Level 4 manifestation)
                             |
-Tier 3 - Cloud/Edge:    Cr8OS 3.0  (CTQC via Cloudflare Workers)
+Tier 3 - Cloud/Edge:    Cr8OS 3.0  (CTQC via Quantum engine)
                             |
 Tier 2 - Distributed:    cr8OS 2.0  (Docker microservices, AevMesh, quantumfs)
                             |
