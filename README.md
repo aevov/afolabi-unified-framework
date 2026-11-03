@@ -1,7 +1,7 @@
 # Afolabi Unified Framework (AUF) 
 
 > [!NOTE]
-> **Framework Status**: AUF is a highly plausible framework pending peer review and validation.
+> **Framework Status**: AUF is a highly plausible framework pending peer review and validation. It's gemoetric foundations are clearly emphasized here as the World's only geometrically validated Lattice basis : https://github.com/aevov/Worlds-Only-Geometric-Reasoning-Protocol
 
 
 
