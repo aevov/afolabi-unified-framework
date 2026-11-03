@@ -61,6 +61,12 @@ This document classifies every major AUF claim by its **evidence status**, ensur
 | Resonance Constant ($\Re$) quantifiable | 🟡 | Derived from HRV metrics, awaiting standardization |
 | Interpersonal physiological synchrony | 🟢 | Documented (choir singers, fire-walkers) |
 | N² scaling of collective coherence | 🟡 | Derived from Kuramoto, awaiting empirical test |
+| Cells emit ultra-weak biophotons | 🟢 | Measured since Gurwitsch (1920s); PMT/CCD data |
+| Biophoton emission tracks metabolism | 🟢 | Established in ultra-weak photon emission literature |
+| Mitochondria set neural pacemaker $\omega_i$ (ATP/Ca²⁺) | 🟡 | Metabolism constrains firing; explicit $\omega_i(A)$ is a model |
+| Biophotonic coupling channel $K_{ij}$ between neurons | 🔴 | Plausible; functional neural biophoton signaling unproven |
+
+*See [MITOCHONDRIAL_BIOPHOTONICS.md](./MITOCHONDRIAL_BIOPHOTONICS.md) for the coupled model.*
 
 ---
 

@@ -5,7 +5,7 @@
 > — Resonance Physics, 2026
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18913463.svg)](https://doi.org/10.5281/zenodo.18913463)
-[![Repo](https://img.shields.io/badge/NRT-github.com/aevov/neuroresonance--theory-6C63FF)](https://github.com/aevov/neuroresonance-theory)
+[![Repo](https://img.shields.io/badge/NRT-neuroresonance--theory-6C63FF)](https://github.com/aevov/neuroresonance-theory)
 
 ---
 
